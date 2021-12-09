@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="QMK_Assistant.ColorSelector"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QMK_Assistant"
+             mc:Ignorable="d" 
+             d:DesignHeight="20" d:DesignWidth="64"
+             DataContext="{Binding RelativeSource={RelativeSource Self}}">
+   
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="24"/>
+        </Grid.ColumnDefinitions>
+        <Border x:Name="DisplayBorder" Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="{Binding ColorHex}" BorderBrush="DarkGray" BorderThickness="1,1,0,1"/>
+        <Button x:Name="SelectButton" Grid.Column="1" BorderBrush="DarkGray" Click="SelectButton_Click">
+            <Button.Content>
+                <Canvas Height="18" Width="18" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Path Fill="#7f7f7f"  StrokeThickness="0.25" Data="M 13.00318 3.6852583 C 12.72206 3.8892082 9.6573002 5.9893405 7.7776542 7.6485002 9.023402 8.0398635 9.999054 9.0100033 10.395929 10.272288 12.066113 8.3926416 14.160734 5.3333937 14.364683 5.0467615 15.015118 4.1372553 13.879614 3.0348237 13.00318 3.6852583 Z M 7.805215 10.239215 c 0.4023876 0.402387 0.7055563 0.937067 0.7772143 1.372527 0.4464849 -0.07166 0.8047752 -0.28112 1.1796019 -0.655947 C 9.822665 10.900674 9.8777866 10.84004 9.9329081 10.773894 9.6903732 9.4454639 8.5824293 8.3540565 7.2760478 8.1115215 7.2099019 8.1666431 7.1492682 8.2272769 7.0886344 8.2879106 6.7138076 8.6627374 6.5098578 9.032052 6.4381997 9.4675125 6.8681481 9.5391706 7.4083396 9.8368271 7.805215 10.239215 Z M 2.7119807 13.237829 C 3.6325111 14.560747 5.6664976 15.012744 6.9673669 14.10875 8.0918472 13.326023 8.3398944 12.113349 7.595753 11.055014 6.9287818 10.095899 5.7216191 9.8258028 4.9278683 10.393555 4.01285 11.04399 4.3821647 11.936959 3.8199245 12.333835 3.351391 12.670077 3.0261737 12.460614 2.7560779 12.642516 2.5796889 12.752759 2.513543 12.962221 2.7119807 13.237829 Z"/>
+                </Canvas>
+            </Button.Content>
+        </Button>
+    </Grid>
+</UserControl>

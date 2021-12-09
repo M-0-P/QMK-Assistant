@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svg8" Width="32" Height="32">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="4.0758603" Canvas.Top="2.7395127" Width="35.012308" Height="39.288621" Name="rect967" Fill="#000000" x:Key="rect967"/>
+    </Canvas.Resources>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: metadata-->
+    <Canvas Name="layer1">
+      <Canvas Name="Legend"/>
+      <Canvas Name="Legend9">
+        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path974" Fill="#000000" StrokeThickness="0.264583">
+          <Path.Data>
+            <PathGeometry Figures="m 12.717519 23.939305 h 6.564962 c 0.388606 0 0.677993 -0.256315 0.677993 -0.636652 0 -0.388606 -0.289387 -0.636653 -0.677993 -0.636653 h -6.564962 c -0.388606 0 -0.677993 0.248047 -0.677993 0.636653 0 0.380337 0.289387 0.636652 0.677993 0.636652 z m 0 3.580136 h 6.564962 c 0.388606 0 0.677993 -0.256314 0.677993 -0.636652 0 -0.388606 -0.289387 -0.636653 -0.677993 -0.636653 h -6.564962 c -0.388606 0 -0.677993 0.248047 -0.677993 0.636653 0 0.380338 0.289387 0.636652 0.677993 0.636652 z M 16 13.707789 c 0.405142 0 0.669725 -0.305924 0.669725 -0.711066 V 10.09458 h 2.736779 c 0.405142 0 0.711066 -0.2645827 0.711066 -0.6697252 0 -0.4051424 -0.305924 -0.6697252 -0.711066 -0.6697252 h -2.736779 v -2.910411 c 0 -0.4051424 -0.264583 -0.7110663 -0.669725 -0.7110663 -0.405142 0 -0.669725 0.3059239 -0.669725 0.7110663 v 2.910411 h -2.745047 c -0.405142 0 -0.711066 0.2645828 -0.711066 0.6697252 0 0.4051425 0.305924 0.6697252 0.711066 0.6697252 h 2.745047 v 2.902143 c 0 0.405142 0.264583 0.711066 0.669725 0.711066 z" FillRule="NonZero"/>
+          </Path.Data>
+        </Path>
+      </Canvas>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="6.35" FontFamily="SF Pro Rounded" Name="text965"/>
+    </Canvas>
+  </Canvas>
+</Viewbox>

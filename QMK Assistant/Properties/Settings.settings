@@ -1,0 +1,132 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="QMK_Assistant.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OverlaySizes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.125,Mini;0.25,X-Small;0.375,Small;0.5,Medium;0.625,Large;0.75,X-Large;1,Full</Value>
+    </Setting>
+    <Setting Name="OverlayOpacityStep" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.1</Value>
+    </Setting>
+    <Setting Name="OverlayPositions" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Top Left,Left,10,Top,10;Top,Center,0,Top,10;Top Right,Right,10,Top,10;Right,Right,10,Middle,0;Bottom Right,Right,10,Bottom,10;Bottom,Center,10,Bottom,10;Bottom Left,Left,10,Bottom,10;Left,Left,10,Middle,10;Center,Center,0,Middle,0</Value>
+    </Setting>
+    <Setting Name="MonitorDefault" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LayerMax" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="LegendsPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resources\\Legends</Value>
+    </Setting>
+    <Setting Name="LegendMargin" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="BaseUnit" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">48</Value>
+    </Setting>
+    <Setting Name="DefaultSpacing" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.25</Value>
+    </Setting>
+    <Setting Name="BorderShadeFactor" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.8</Value>
+    </Setting>
+    <Setting Name="DefaultOverlayDisplay" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Both</Value>
+    </Setting>
+    <Setting Name="DefaultOverlaySize" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Small</Value>
+    </Setting>
+    <Setting Name="DefaultOverlayPosition" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bottom Right</Value>
+    </Setting>
+    <Setting Name="DefaultOverlayOpacity" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.6</Value>
+    </Setting>
+    <Setting Name="IndicatorShapePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resources\\Indicators</Value>
+    </Setting>
+    <Setting Name="KeyboardPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resources\\Keyboards</Value>
+    </Setting>
+    <Setting Name="KeyBorderGap" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="QMKDisplayOpacityDown" Type="System.String" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="QMKDisplayOpacityUp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">21</Value>
+    </Setting>
+    <Setting Name="QMKDisplayTypeDown" Type="System.String" Scope="User">
+      <Value Profile="(Default)">22</Value>
+    </Setting>
+    <Setting Name="QMKDisplayTypeUp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">23</Value>
+    </Setting>
+    <Setting Name="QMKDisplaySizeDown" Type="System.String" Scope="User">
+      <Value Profile="(Default)">24</Value>
+    </Setting>
+    <Setting Name="QMKDisplaySizeUp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="QMKDisplayPositionDown" Type="System.String" Scope="User">
+      <Value Profile="(Default)">26</Value>
+    </Setting>
+    <Setting Name="QMKDisplayPositionUp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">27</Value>
+    </Setting>
+    <Setting Name="QMKKeyboardDown" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2C</Value>
+    </Setting>
+    <Setting Name="QMKKeyboardUp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2D</Value>
+    </Setting>
+    <Setting Name="QMKMonitor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2B</Value>
+    </Setting>
+    <Setting Name="QMKDisplaySettingsSave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2A</Value>
+    </Setting>
+    <Setting Name="QMKSymbolHelp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">28</Value>
+    </Setting>
+    <Setting Name="QMKMacroHelp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">29</Value>
+    </Setting>
+    <Setting Name="UpDownDefaultDecimal" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="UpDownForceIncrements" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DefaultQMKPrefix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">A</Value>
+    </Setting>
+    <Setting Name="DefaultQMKSuffix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z</Value>
+    </Setting>
+    <Setting Name="DefaultQMKLayer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">L</Value>
+    </Setting>
+    <Setting Name="DefaultQMKKeystroke" Type="System.String" Scope="User">
+      <Value Profile="(Default)">K</Value>
+    </Setting>
+    <Setting Name="DefaultQMKMacro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M</Value>
+    </Setting>
+    <Setting Name="DefaultQMKCaps" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C</Value>
+    </Setting>
+    <Setting Name="DefaultQMKIndicator" Type="System.String" Scope="User">
+      <Value Profile="(Default)">I</Value>
+    </Setting>
+    <Setting Name="DefaultQMKQMK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Q</Value>
+    </Setting>
+    <Setting Name="DefaultTrackKeystroke" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svg8" Width="32" Height="32">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources/>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: metadata-->
+    <Canvas Name="layer1">
+      <Canvas Name="Legend">
+        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path973" Fill="#000000" StrokeThickness="0.264583">
+          <Path.Data>
+            <PathGeometry Figures="m 10.86543 19.937745 c 0.533301 0 0.818554 -0.37207 0.930176 -0.855762 0.235644 -1.041797 0.682128 -1.575097 1.550292 -1.575097 0.719336 0 1.277442 0.483691 1.823145 0.95498 1.438672 1.227832 2.38125 1.773535 3.633887 1.773535 1.612304 0 2.778125 -0.930176 3.199804 -2.356445 0.08682 -0.297656 0.136426 -0.620117 0.136426 -0.954981 0 -0.595312 -0.359668 -1.054199 -0.95498 -1.054199 -0.582911 0 -0.868164 0.347266 -0.979786 0.855762 -0.235644 1.054199 -0.657324 1.525488 -1.426269 1.525488 -0.644922 0 -1.314648 -0.471289 -2.195215 -1.215429 -1.091406 -0.917774 -1.95957 -1.513086 -3.249414 -1.513086 -1.624707 0 -2.951758 0.905371 -3.361035 2.480468 -0.074414 0.26045 -0.1116211 0.545703 -0.1116211 0.84336 0 0.632519 0.3472661 1.091406 1.0045901 1.091406 z" FillRule="NonZero"/>
+          </Path.Data>
+        </Path>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+</Viewbox>

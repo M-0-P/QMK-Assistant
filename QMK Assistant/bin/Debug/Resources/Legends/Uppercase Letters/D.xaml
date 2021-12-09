@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svg8" Width="32" Height="32">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources/>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: metadata-->
+    <Canvas Name="layer1">
+      <Canvas Name="Legend">
+        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path850" Fill="#000000" StrokeThickness="0.264583">
+          <Path.Data>
+            <PathGeometry Figures="m 10.239111 24.948292 h 4.898926 c 5.320606 0 8.445996 -3.311426 8.445996 -8.954492 0 -5.630664 -3.137793 -8.94209 -8.445996 -8.94209 h -4.898926 c -0.6821285 0 -1.1162105 0.4464844 -1.1162105 1.153418 v 15.589746 c 0 0.706933 0.434082 1.153418 1.1162105 1.153418 z m 1.116211 -2.00918 V 9.0608897 h 3.633887 c 4.067969 0 6.312793 2.4804683 6.312793 6.9577143 0 4.440039 -2.257227 6.920508 -6.312793 6.920508 z" FillRule="NonZero"/>
+          </Path.Data>
+        </Path>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+</Viewbox>

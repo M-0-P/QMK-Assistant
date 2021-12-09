@@ -1,0 +1,72 @@
+﻿<Window x:Class="QMK_Assistant.LegendViewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QMK_Assistant"
+        mc:Ignorable="d"
+        Title="LegendViewWindow" Height="400" Width="386" Background="LightGray">
+    <Window.Resources>
+        <local:UnitsToSize x:Key="unittosize"/>
+        <local:UnitsToBorder x:Key="unitstoborder"/>
+        <local:UnitsToCanvasBorder x:Key="unitstocanvasborder"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="CancelButton" IsCancel="True" Content="Cancel" Width="80" Grid.Row="1" Height="30" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,100,0"/>
+        <Button x:Name="OKButton" IsDefault="True" Content="OK" Width="80"  Height="30" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0" Click="OKButton_Click"/>
+        <Viewbox HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,10,10,0">
+            <ListView x:Name="LegendListView" ItemsSource="{Binding Legends}" Height="290" Width="366" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="LegendListView_SelectionChanged">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="Background" Value="LightGray"/>
+                        <Setter Property="Width" Value="54"/>
+                        <Setter Property="Height" Value="54"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListViewItem">
+                                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="3">
+                                        <Border Background="{TemplateBinding Background}" CornerRadius="2" Width="{Binding WidthU, Converter={StaticResource unitstoborder}}" Height="{Binding HeightU, Converter={StaticResource unitstoborder}}" >
+                                            <Border Background="White" CornerRadius="2" Width="{Binding WidthU, Converter={StaticResource unitstocanvasborder}}" Height="{Binding HeightU, Converter={StaticResource unitstocanvasborder}}" >
+                                                <Canvas Width="{Binding WidthU, Converter={StaticResource unitstocanvasborder}}" Height="{Binding HeightU, Converter={StaticResource unitstocanvasborder}}" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="CanvasBorder" >
+                                                    <Path x:Name="LegendPath" Data="{Binding LegendPath}" Fill="Black" StrokeThickness=".25">
+                                                    </Path>
+                                                </Canvas>
+                                            </Border>
+                                        </Border>
+                                    </Viewbox>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsSelected" Value="True">
+                                            <Setter  Property="Background" Value="Gray"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel  MaxWidth="360"/>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.GroupStyle>
+                    <GroupStyle>
+                        <GroupStyle.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Background="LightGray" CornerRadius="1" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="30">
+                                    <TextBlock FontWeight="Bold" FontSize="14" Text="{Binding Name}" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                                </Border>
+                            </DataTemplate>
+                        </GroupStyle.HeaderTemplate>
+                    </GroupStyle>
+                </ListView.GroupStyle>
+            </ListView>
+
+        </Viewbox>
+        <TextBlock x:Name="SelectionTextBlock" FontSize="12" TextWrapping="WrapWithOverflow" FontWeight="Normal" Width="180" HorizontalAlignment="Left" Margin="12,0,0,0" Grid.Row="1" Text="" VerticalAlignment="Center"/>
+    </Grid>
+</Window>

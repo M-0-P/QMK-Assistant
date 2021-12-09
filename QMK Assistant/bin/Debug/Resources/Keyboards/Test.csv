@@ -1,0 +1,20 @@
+Keyboard,Test,13,5,#FFFFFFFF,,,,21,20,23,22,25,24,27,26,2D,2C,2B,2A,A,Z,L,K,M,C,I,Q
+Layer,,0,#FF303030,
+Layer,,1,#FF0080FF,
+Layer,,2,#FF00FF00,
+Layer,,3,#FF303030,
+Layer,,4,#FF303030,
+Layer,,5,#FF303030,
+Layer,,6,#FF303030,
+Layer,,7,#FF303030,
+Layer,,8,#FF303030,
+Layer,,9,#FF303030,
+Layer,,10,#FF303030,
+Layer,,11,#FF303030,
+Layer,,12,#FF303030,
+Layer,,13,#FF303030,
+Layer,,14,#FF303030,
+Layer,,15,#FF303030,
+Indicator,CAPS,CAPS,Square,0,Off,#FF000000,1,On,#FF000000
+Indicator,Layer,Layer,Square
+Key,0,0,2.25,1,3.75,2,326,Delete,Command Keys,Alt,Command Keys,Insert,Command Keys,(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank),(Blank)

@@ -1,0 +1,28 @@
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\bin\Debug\QMK Assistant.exe.config
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\bin\Debug\QMK Assistant.exe
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\bin\Debug\QMK Assistant.pdb
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\QMK Assistant.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\MainWindow.g.cs
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\App.g.cs
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\QMK Assistant_MarkupCompile.cache
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\QMK Assistant_MarkupCompile.lref
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\MainWindow.baml
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\QMK Assistant.g.resources
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\QMK_Assistant.Properties.Resources.resources
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\QMK Assistant.csproj.GenerateResource.cache
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\QMK Assistant.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\QMK Assistant.exe
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\QMK Assistant.pdb
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\bin\Debug\HidLibrary.dll
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\QMK Assistant.csproj.CopyComplete
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\OverlayWindow.g.cs
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\OverlayWindow.baml
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\EditKeyboardWindow.g.cs
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\EditKeyboardWindow.baml
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\NumericUpDown.g.cs
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\NumericUpDown.baml
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\LegendViewWindow.g.cs
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\LegendViewWindow.baml
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\ColorSelector.g.cs
+C:\Users\micha\OneDrive\Documents\Development\QMK Assistant\QMK Assistant\obj\Debug\ColorSelector.baml

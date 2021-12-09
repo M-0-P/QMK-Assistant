@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="QMK_Assistant.NumericUpDown"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QMK_Assistant"
+             mc:Ignorable="d" 
+               d:DesignHeight="20" d:DesignWidth="64">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox Name="NUDTextBox" Grid.Column="1" Grid.Row="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.RowSpan="2" TextAlignment="Center" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" GotFocus="NUDTextBox_GotFocus" LostFocus="NUDTextBox_LostFocus"/>
+        <RepeatButton Name="NUDButtonUp" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0" Click="NUDButtonUp_Click">
+            <Canvas Height="16" Width="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Path Fill="Black"  Data="M 2.4051593 8.8874577 H 7.1125425 V 13.594841 H 8.8984818 V 8.8874577 H 13.594841 V 7.1015184 H 8.8984818 V 2.4051594 H 7.1125425 v 4.696359 H 2.4051593 Z"/>
+            </Canvas>
+        </RepeatButton>
+        <RepeatButton x:Name="NUDButtonDown" Grid.Column="0" Grid.Row="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Click="NUDButtonDown_Click">
+            <Canvas Height="16" Width="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Path Fill="Black"  Data="M 4.0312502 9.0045899 H 11.96875 V 6.9954103 H 4.0312502 Z"/>
+            </Canvas>
+        </RepeatButton>
+    </Grid>
+</UserControl>
